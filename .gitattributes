@@ -1,0 +1,10 @@
+# 默认自动处理文本文件行尾
+* text=auto
+
+# Windows 批处理必须保持 CRLF，否则在部分系统上解析异常
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 运行产物不入库（双保险，.gitignore 已排除）
+runs/** -text
+netmon_live.html -text

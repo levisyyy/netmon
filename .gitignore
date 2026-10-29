@@ -1,0 +1,13 @@
+# 运行时数据（含真实网络环境信息：网关、WiFi SSID/BSSID、时间戳等），不入库
+runs/
+
+# 生成的实时看板（每次运行自动重建）
+netmon_live.html
+netmon_live.html.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# 本地临时备份
+_tmp_backup_*.zip
